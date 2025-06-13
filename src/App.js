@@ -3,21 +3,20 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ textAlign: "center", fontFamily: "sans-serif" }}>
+      <h1>Hi, I'm Ramya Muthineni 👩‍💻</h1>
+      <p>🚀 Data Analyst | Full Stack Developer | SAP Consultant</p>
+
+      <h2>💼 Projects</h2>
+      <ul style={{ listStyle: "none", padding: 0 }}>
+        <li>📊 Enhanced Garment Worker Productivity - Python, Pandas</li>
+        <li>🏦 Bank Management System - Java, SQL</li>
+        <li>☁️ AWS File Processor - React, Lambda, S3</li>
+      </ul>
+
+      <h2>📬 Contact</h2>
+      <p>Email: ramyasrimuthineni74@gmail.com</p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/ramya-muthineni" target="_blank">Ramya Muthineni</a></p>
     </div>
   );
 }
